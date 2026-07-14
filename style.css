@@ -113,3 +113,56 @@ ul li a{
     background-color: #2446d9;
     transform: translateY(-2px);
 }
+/* speakers section */
+.speakers{
+    padding: 90px 0;
+}
+.section-title{
+    text-align: center;
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.speaker-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 28px;
+}
+.speaker-card{
+    background: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    overflow: hidden;
+  
+}
+.speaker-card:hover{
+    /* transform: translateY(-6px); */
+    box-shadow: 0 10px 25px rgba(0,0,0,.12);
+}
+.speaker-card img{
+    width:100%;
+    height:260px;
+    display:block;
+}
+.speaker-content{
+    padding:18px;
+}
+.track{
+    display:inline-block;
+    color:#3366ff;
+    font-size:12px;
+    font-weight:700;
+    margin-bottom:10px;
+}
+
+.speaker-content h3{
+    font-size:24px;
+    margin-bottom:5px;
+}
+
+.speaker-content p{
+    color:#666;
+    font-size:15px;
+}
+
+
