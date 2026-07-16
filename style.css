@@ -67,7 +67,6 @@ ul li a{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -135,7 +134,7 @@ ul li a{
 .speaker-content{
     padding:18px;
 }
-.track{
+.catagory{
     display:inline-block;
     color:#3650ad;
     font-size:12px;
@@ -240,6 +239,154 @@ font-weight: bold;
 .featured li{
 color: #a3afb8c7;
 }
+
+/*<!--  Hackathon Section-->  */
+
+.hackathon{
+    padding:100px 0;
+    background:#f8fbff;
+}
+
+.hackathon-container{
+    width:85%;
+    max-width:1200px;
+    margin:auto;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:60px;
+}
+
+.hackathon-left,
+.hackathon-right{
+    flex:1;
+}
+
+.tag{
+    display:inline-block;
+    background:#dbe8ff;
+    color:#3650ad;
+    padding:8px 18px;
+    border-radius:30px;
+    font-size:14px;
+    font-weight:600;
+    margin-bottom:20px;
+}
+
+.hackathon-left h2{
+    font-size:46px;
+    color:#111827;
+    margin-bottom:20px;
+    line-height:1.2;
+}
+
+.hackathon-left h2 span{
+    color:#3650ad;
+}
+
+.hackathon-left p{
+    color:#6b7280;
+    line-height:1.8;
+    margin-bottom:35px;
+}
+
+.hackathon-info{
+    display:flex;
+    gap:20px;
+    margin-bottom:35px;
+}
+
+.info-card{
+    flex:1;
+    background:#fff;
+    border:1px solid #dbeafe;
+    border-radius:14px;
+    padding:22px;
+    text-align:center;
+    transition:.3s;
+}
+
+.info-card:hover{
+    transform:translateY(-6px);
+    box-shadow:0 15px 35px rgba(37,99,235,.15);
+}
+
+.info-card h3{
+    color:#3650ad;
+    font-size:32px;
+    margin-bottom:8px;
+}
+
+.info-card p{
+    margin:0;
+    color:#6b7280;
+}
+
+.hack-btn{
+    display:inline-block;
+    text-decoration:none;
+    background:#3650ad;
+    color:#fff;
+    padding:16px 34px;
+    border-radius:10px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.hack-btn:hover{
+    background:#3650ad;
+}
+
+.hackathon-right{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+.feature-card{
+    background:#ffffff;
+    border-left:6px solid #3650ad;
+    border-radius:14px;
+    padding:28px;
+    transition:.3s;
+    box-shadow:0 10px 25px rgba(0,0,0,.05);
+}
+
+.feature-card:hover{
+    transform:translateX(8px);
+}
+
+.feature-card h4{
+    color:#111827;
+    margin-bottom:12px;
+    font-size:22px;
+}
+
+.feature-card p{
+    color:#6b7280;
+    line-height:1.7;
+}
+
+/* Responsive */
+
+@media(max-width:900px){
+
+    .hackathon-container{
+        flex-direction:column;
+    }
+
+    .hackathon-info{
+        flex-direction:column;
+    }
+
+    .hackathon-left h2{
+        font-size:36px;
+    }
+
+}
+
+
 /* footer */
 .footer{
     background:#162033;
